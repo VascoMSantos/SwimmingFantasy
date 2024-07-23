@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    background-color: #daffff;
+}
+h1 {
+    font-size: 40px;
+    font-family: Arial;
+    font-weight: normal;
+    color: #ffffff;
+    text-align: center;
+}
+
+#banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100px;
+    object-fit: cover; /* This line is important to keep the image aspect ratio */
+}
+
+h2 {
+    font-size: 30px;
+    font-family: Arial;
+    font-weight: normal;
+    color: #000000;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: normal;
+    color: #000000;
+    text-align: center;
+}
+
+#container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 0 auto; /* Center the container */
+}
+
+#header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 0 auto; /* Center the header */
+    background-color: rgb(0, 0, 110);
+}
+
+#short_image {
+    position: absolute;
+    display: block;
+    top: 45px;
+    right: 100px;
+    object-fit: cover; /* This line is important to keep the image aspect ratio */
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 0 auto; /* Center the content */
+    background-color: #daffff;
+    padding: 20px;
+}

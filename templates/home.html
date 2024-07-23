@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- This line is important for responsive design (specially in mobile web) -->
+        <meta name="author" content="Vasco Santos">
+        <meta name="description" content="Swimming Fantasy App">
+        <title>Swimming Fantasy App</title>
+        <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">
+                <h1>Swimming Fantasy Portugal</h1>
+                <div id="short_image">
+                    <img src="{{ url_for('static', filename='favicon.ico') }}" alt="Swimming Fantasy Portugal">
+                </div>
+            </div>
+        </div>
+        <div id="pages">
+            <p>Welcome to the home page!</p>
+        </div>
+    </body>
+</html>
